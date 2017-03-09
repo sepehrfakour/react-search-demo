@@ -1,0 +1,188 @@
+/* line 1, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+#search-window {
+  max-width: 1080px;
+  margin: 0px auto;
+  background: #FEFEFE;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25); }
+  /* line 6, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+  #search-window #input-container {
+    padding: 10px;
+    background-color: #1C688E; }
+    /* line 9, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+    #search-window #input-container input {
+      height: 50px;
+      width: 100%;
+      padding: 5px 5px;
+      font-size: 13px;
+      font-weight: 200;
+      border: 1px solid #DDD;
+      border-radius: 3px;
+      box-sizing: border-box; }
+  /* line 20, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+  #search-window #display-container {
+    text-align: left;
+    overflow: scroll; }
+    /* line 23, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+    #search-window #display-container #filter-sidebar,
+    #search-window #display-container #results-container {
+      height: 100%;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: scroll; }
+      /* line 30, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+      #search-window #display-container #filter-sidebar h3,
+      #search-window #display-container #results-container h3 {
+        margin: 5px 0px 10px;
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom: 1px dotted #EEE; }
+        /* line 36, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #filter-sidebar h3 > span:last-of-type,
+        #search-window #display-container #results-container h3 > span:last-of-type {
+          font-size: 14px;
+          font-weight: 400;
+          color: #666; }
+    /* line 44, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+    #search-window #display-container #filter-sidebar .filter {
+      margin-bottom: 5px; }
+      /* line 46, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+      #search-window #display-container #filter-sidebar .filter ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none; }
+        /* line 50, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #filter-sidebar .filter ul li {
+          margin: 2px;
+          padding: 2px 10px;
+          line-height: 18px;
+          border-radius: 3px;
+          border: 1px solid #EEE; }
+          /* line 56, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #filter-sidebar .filter ul li.refined, #search-window #display-container #filter-sidebar .filter ul li:hover {
+            color: #FFF;
+            background-color: #2897C5;
+            cursor: pointer; }
+            /* line 61, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #filter-sidebar .filter ul li.refined span:last-of-type, #search-window #display-container #filter-sidebar .filter ul li:hover span:last-of-type {
+              color: #FFF; }
+          /* line 63, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #filter-sidebar .filter ul li[data-facet] {
+            display: inline-block;
+            background-image: none; }
+          /* line 67, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #filter-sidebar .filter ul li span {
+            display: inline-block;
+            font-size: 14px;
+            font-weight: 600;
+            pointer-events: none; }
+            /* line 72, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #filter-sidebar .filter ul li span:last-of-type {
+              color: #A9A9A9;
+              float: right;
+              margin-left: 5px; }
+    /* line 82, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+    #search-window #display-container #results-container {
+      width: auto; }
+      /* line 85, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+      #search-window #display-container #results-container #results .result {
+        margin: 30px 0px;
+        padding: 0px 0px 20px;
+        border-bottom: 1px dotted #EEE; }
+        /* line 89, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #results .result .result-img,
+        #search-window #display-container #results-container #results .result .result-body {
+          display: inline-block;
+          vertical-align: top; }
+        /* line 94, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #results .result .result-img {
+          height: 90px;
+          width: 90px;
+          background-size: cover;
+          background-position: center;
+          border-radius: 7px;
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3); }
+        /* line 102, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #results .result .result-body {
+          display: inline-block;
+          max-width: 210px;
+          padding-left: 10px;
+          font-size: 13px;
+          line-height: 18px;
+          color: #A9A9A9;
+          box-sizing: border-box; }
+          /* line 110, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #results-container #results .result .result-body .result-name {
+            margin: 0 0 4px;
+            font-size: 16px;
+            color: #444; }
+          /* line 115, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #results-container #results .result .result-body .result-rating {
+            display: inline-block;
+            font-size: 16px;
+            color: #FFAB66; }
+            /* line 119, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating] {
+              display: inline-block;
+              height: 28px;
+              width: 130px;
+              margin-left: 10px;
+              background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+              background-position: 0px 0px, 25px 0px, 50px 0px, 75px 0px, 100px 0px;
+              background-size: 16%;
+              vertical-align: middle; }
+            /* line 129, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="0"] {
+              background-image: url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"); }
+            /* line 132, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="1"] {
+              background-image: url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"); }
+            /* line 135, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="2"] {
+              background-image: url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"); }
+            /* line 138, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="3"] {
+              background-image: url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/star-empty.png"), url("../../resources/graphics/star-empty.png"); }
+            /* line 141, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="4"] {
+              background-image: url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/star-empty.png"); }
+            /* line 144, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+            #search-window #display-container #results-container #results .result .result-body .result-rating [data-rating="5"] {
+              background-image: url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"), url("../../resources/graphics/stars-plain.png"); }
+          /* line 148, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #results-container #results .result .result-body .result-reviews {
+            display: block;
+            font-size: 14px;
+            vertical-align: top; }
+        /* line 157, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #results .result em {
+          background-color: yellow; }
+        /* line 158, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #results .result .details {
+          color: #A9A9A9; }
+      /* line 163, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+      #search-window #display-container #results-container #paginate-container {
+        padding: 12px 0px;
+        text-align: center; }
+        /* line 166, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+        #search-window #display-container #results-container #paginate-container #show-more-button {
+          display: inline-block;
+          padding: 10px 90px;
+          font-weight: 500;
+          font-size: 18px;
+          color: #AAA;
+          background: transparent;
+          border: 1px solid #CCC;
+          border-radius: 3px;
+          -webkit-transition: background-color .25s ease-in-out;
+          -moz-transition: background-color .25s ease-in-out;
+          -ms-transition: background-color .25s ease-in-out;
+          -o-transition: background-color .25s ease-in-out;
+          transition: background-color .25s ease-in-out; }
+          /* line 180, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/search.scss */
+          #search-window #display-container #results-container #paginate-container #show-more-button:hover {
+            color: #555;
+            background-color: #EEE; }
+
+/*# sourceMappingURL=../../scss */

@@ -1,0 +1,981 @@
+/* line 1, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 8, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.container::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 576px) {
+  /* line 15, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .container {
+    width: 540px;
+    max-width: 100%; } }
+
+@media (min-width: 768px) {
+  /* line 22, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .container {
+    width: 720px;
+    max-width: 100%; } }
+
+@media (min-width: 992px) {
+  /* line 29, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .container {
+    width: 960px;
+    max-width: 100%; } }
+
+@media (min-width: 1200px) {
+  /* line 36, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .container {
+    width: 1140px;
+    max-width: 100%; } }
+
+/* line 42, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.container-fluid {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+/* line 49, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.container-fluid::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 55, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.row {
+  margin-right: -15px;
+  margin-left: -15px; }
+
+/* line 60, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.row::after {
+  content: "";
+  display: table;
+  clear: both; }
+
+@media (min-width: 576px) {
+  /* line 67, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+
+@media (min-width: 768px) {
+  /* line 74, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+
+@media (min-width: 992px) {
+  /* line 81, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+
+@media (min-width: 1200px) {
+  /* line 88, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .row {
+    margin-right: -15px;
+    margin-left: -15px; } }
+
+/* line 94, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px; }
+
+@media (min-width: 576px) {
+  /* line 102, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 768px) {
+  /* line 109, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 992px) {
+  /* line 116, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+@media (min-width: 1200px) {
+  /* line 123, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xs, .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-xl, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12 {
+    padding-right: 15px;
+    padding-left: 15px; } }
+
+/* line 129, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-1 {
+  float: left;
+  width: 8.333333%; }
+
+/* line 134, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-2 {
+  float: left;
+  width: 16.666667%; }
+
+/* line 139, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-3 {
+  float: left;
+  width: 25%; }
+
+/* line 144, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-4 {
+  float: left;
+  width: 33.333333%; }
+
+/* line 149, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-5 {
+  float: left;
+  width: 41.666667%; }
+
+/* line 154, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-6 {
+  float: left;
+  width: 50%; }
+
+/* line 159, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-7 {
+  float: left;
+  width: 58.333333%; }
+
+/* line 164, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-8 {
+  float: left;
+  width: 66.666667%; }
+
+/* line 169, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-9 {
+  float: left;
+  width: 75%; }
+
+/* line 174, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-10 {
+  float: left;
+  width: 83.333333%; }
+
+/* line 179, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-11 {
+  float: left;
+  width: 91.666667%; }
+
+/* line 184, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.col-xs-12 {
+  float: left;
+  width: 100%; }
+
+/* line 189, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-0 {
+  right: auto; }
+
+/* line 193, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-1 {
+  right: 8.333333%; }
+
+/* line 197, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-2 {
+  right: 16.666667%; }
+
+/* line 201, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-3 {
+  right: 25%; }
+
+/* line 205, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-4 {
+  right: 33.333333%; }
+
+/* line 209, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-5 {
+  right: 41.666667%; }
+
+/* line 213, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-6 {
+  right: 50%; }
+
+/* line 217, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-7 {
+  right: 58.333333%; }
+
+/* line 221, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-8 {
+  right: 66.666667%; }
+
+/* line 225, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-9 {
+  right: 75%; }
+
+/* line 229, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-10 {
+  right: 83.333333%; }
+
+/* line 233, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-11 {
+  right: 91.666667%; }
+
+/* line 237, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.pull-xs-12 {
+  right: 100%; }
+
+/* line 241, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-0 {
+  left: auto; }
+
+/* line 245, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-1 {
+  left: 8.333333%; }
+
+/* line 249, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-2 {
+  left: 16.666667%; }
+
+/* line 253, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-3 {
+  left: 25%; }
+
+/* line 257, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-4 {
+  left: 33.333333%; }
+
+/* line 261, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-5 {
+  left: 41.666667%; }
+
+/* line 265, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-6 {
+  left: 50%; }
+
+/* line 269, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-7 {
+  left: 58.333333%; }
+
+/* line 273, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-8 {
+  left: 66.666667%; }
+
+/* line 277, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-9 {
+  left: 75%; }
+
+/* line 281, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-10 {
+  left: 83.333333%; }
+
+/* line 285, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-11 {
+  left: 91.666667%; }
+
+/* line 289, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.push-xs-12 {
+  left: 100%; }
+
+/* line 293, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-1 {
+  margin-left: 8.333333%; }
+
+/* line 297, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-2 {
+  margin-left: 16.666667%; }
+
+/* line 301, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-3 {
+  margin-left: 25%; }
+
+/* line 305, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-4 {
+  margin-left: 33.333333%; }
+
+/* line 309, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-5 {
+  margin-left: 41.666667%; }
+
+/* line 313, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-6 {
+  margin-left: 50%; }
+
+/* line 317, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-7 {
+  margin-left: 58.333333%; }
+
+/* line 321, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-8 {
+  margin-left: 66.666667%; }
+
+/* line 325, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-9 {
+  margin-left: 75%; }
+
+/* line 329, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-10 {
+  margin-left: 83.333333%; }
+
+/* line 333, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+.offset-xs-11 {
+  margin-left: 91.666667%; }
+
+@media (min-width: 576px) {
+  /* line 338, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-1 {
+    float: left;
+    width: 8.333333%; }
+  /* line 342, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-2 {
+    float: left;
+    width: 16.666667%; }
+  /* line 346, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-3 {
+    float: left;
+    width: 25%; }
+  /* line 350, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-4 {
+    float: left;
+    width: 33.333333%; }
+  /* line 354, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-5 {
+    float: left;
+    width: 41.666667%; }
+  /* line 358, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-6 {
+    float: left;
+    width: 50%; }
+  /* line 362, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-7 {
+    float: left;
+    width: 58.333333%; }
+  /* line 366, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-8 {
+    float: left;
+    width: 66.666667%; }
+  /* line 370, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-9 {
+    float: left;
+    width: 75%; }
+  /* line 374, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-10 {
+    float: left;
+    width: 83.333333%; }
+  /* line 378, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-11 {
+    float: left;
+    width: 91.666667%; }
+  /* line 382, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-sm-12 {
+    float: left;
+    width: 100%; }
+  /* line 386, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-0 {
+    right: auto; }
+  /* line 389, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-1 {
+    right: 8.333333%; }
+  /* line 392, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-2 {
+    right: 16.666667%; }
+  /* line 395, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-3 {
+    right: 25%; }
+  /* line 398, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-4 {
+    right: 33.333333%; }
+  /* line 401, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-5 {
+    right: 41.666667%; }
+  /* line 404, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-6 {
+    right: 50%; }
+  /* line 407, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-7 {
+    right: 58.333333%; }
+  /* line 410, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-8 {
+    right: 66.666667%; }
+  /* line 413, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-9 {
+    right: 75%; }
+  /* line 416, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-10 {
+    right: 83.333333%; }
+  /* line 419, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-11 {
+    right: 91.666667%; }
+  /* line 422, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-sm-12 {
+    right: 100%; }
+  /* line 425, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-0 {
+    left: auto; }
+  /* line 428, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-1 {
+    left: 8.333333%; }
+  /* line 431, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-2 {
+    left: 16.666667%; }
+  /* line 434, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-3 {
+    left: 25%; }
+  /* line 437, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-4 {
+    left: 33.333333%; }
+  /* line 440, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-5 {
+    left: 41.666667%; }
+  /* line 443, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-6 {
+    left: 50%; }
+  /* line 446, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-7 {
+    left: 58.333333%; }
+  /* line 449, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-8 {
+    left: 66.666667%; }
+  /* line 452, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-9 {
+    left: 75%; }
+  /* line 455, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-10 {
+    left: 83.333333%; }
+  /* line 458, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-11 {
+    left: 91.666667%; }
+  /* line 461, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-sm-12 {
+    left: 100%; }
+  /* line 464, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-0 {
+    margin-left: 0%; }
+  /* line 467, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-1 {
+    margin-left: 8.333333%; }
+  /* line 470, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-2 {
+    margin-left: 16.666667%; }
+  /* line 473, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-3 {
+    margin-left: 25%; }
+  /* line 476, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-4 {
+    margin-left: 33.333333%; }
+  /* line 479, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-5 {
+    margin-left: 41.666667%; }
+  /* line 482, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-6 {
+    margin-left: 50%; }
+  /* line 485, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-7 {
+    margin-left: 58.333333%; }
+  /* line 488, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-8 {
+    margin-left: 66.666667%; }
+  /* line 491, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-9 {
+    margin-left: 75%; }
+  /* line 494, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-10 {
+    margin-left: 83.333333%; }
+  /* line 497, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-sm-11 {
+    margin-left: 91.666667%; } }
+
+@media (min-width: 768px) {
+  /* line 503, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-1 {
+    float: left;
+    width: 8.333333%; }
+  /* line 507, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-2 {
+    float: left;
+    width: 16.666667%; }
+  /* line 511, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-3 {
+    float: left;
+    width: 25%; }
+  /* line 515, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-4 {
+    float: left;
+    width: 33.333333%; }
+  /* line 519, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-5 {
+    float: left;
+    width: 41.666667%; }
+  /* line 523, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-6 {
+    float: left;
+    width: 50%; }
+  /* line 527, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-7 {
+    float: left;
+    width: 58.333333%; }
+  /* line 531, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-8 {
+    float: left;
+    width: 66.666667%; }
+  /* line 535, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-9 {
+    float: left;
+    width: 75%; }
+  /* line 539, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-10 {
+    float: left;
+    width: 83.333333%; }
+  /* line 543, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-11 {
+    float: left;
+    width: 91.666667%; }
+  /* line 547, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-md-12 {
+    float: left;
+    width: 100%; }
+  /* line 551, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-0 {
+    right: auto; }
+  /* line 554, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-1 {
+    right: 8.333333%; }
+  /* line 557, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-2 {
+    right: 16.666667%; }
+  /* line 560, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-3 {
+    right: 25%; }
+  /* line 563, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-4 {
+    right: 33.333333%; }
+  /* line 566, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-5 {
+    right: 41.666667%; }
+  /* line 569, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-6 {
+    right: 50%; }
+  /* line 572, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-7 {
+    right: 58.333333%; }
+  /* line 575, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-8 {
+    right: 66.666667%; }
+  /* line 578, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-9 {
+    right: 75%; }
+  /* line 581, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-10 {
+    right: 83.333333%; }
+  /* line 584, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-11 {
+    right: 91.666667%; }
+  /* line 587, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-md-12 {
+    right: 100%; }
+  /* line 590, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-0 {
+    left: auto; }
+  /* line 593, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-1 {
+    left: 8.333333%; }
+  /* line 596, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-2 {
+    left: 16.666667%; }
+  /* line 599, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-3 {
+    left: 25%; }
+  /* line 602, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-4 {
+    left: 33.333333%; }
+  /* line 605, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-5 {
+    left: 41.666667%; }
+  /* line 608, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-6 {
+    left: 50%; }
+  /* line 611, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-7 {
+    left: 58.333333%; }
+  /* line 614, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-8 {
+    left: 66.666667%; }
+  /* line 617, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-9 {
+    left: 75%; }
+  /* line 620, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-10 {
+    left: 83.333333%; }
+  /* line 623, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-11 {
+    left: 91.666667%; }
+  /* line 626, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-md-12 {
+    left: 100%; }
+  /* line 629, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-0 {
+    margin-left: 0%; }
+  /* line 632, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-1 {
+    margin-left: 8.333333%; }
+  /* line 635, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-2 {
+    margin-left: 16.666667%; }
+  /* line 638, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-3 {
+    margin-left: 25%; }
+  /* line 641, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-4 {
+    margin-left: 33.333333%; }
+  /* line 644, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-5 {
+    margin-left: 41.666667%; }
+  /* line 647, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-6 {
+    margin-left: 50%; }
+  /* line 650, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-7 {
+    margin-left: 58.333333%; }
+  /* line 653, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-8 {
+    margin-left: 66.666667%; }
+  /* line 656, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-9 {
+    margin-left: 75%; }
+  /* line 659, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-10 {
+    margin-left: 83.333333%; }
+  /* line 662, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-md-11 {
+    margin-left: 91.666667%; } }
+
+@media (min-width: 992px) {
+  /* line 668, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-1 {
+    float: left;
+    width: 8.333333%; }
+  /* line 672, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-2 {
+    float: left;
+    width: 16.666667%; }
+  /* line 676, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-3 {
+    float: left;
+    width: 25%; }
+  /* line 680, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-4 {
+    float: left;
+    width: 33.333333%; }
+  /* line 684, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-5 {
+    float: left;
+    width: 41.666667%; }
+  /* line 688, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-6 {
+    float: left;
+    width: 50%; }
+  /* line 692, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-7 {
+    float: left;
+    width: 58.333333%; }
+  /* line 696, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-8 {
+    float: left;
+    width: 66.666667%; }
+  /* line 700, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-9 {
+    float: left;
+    width: 75%; }
+  /* line 704, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-10 {
+    float: left;
+    width: 83.333333%; }
+  /* line 708, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-11 {
+    float: left;
+    width: 91.666667%; }
+  /* line 712, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-lg-12 {
+    float: left;
+    width: 100%; }
+  /* line 716, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-0 {
+    right: auto; }
+  /* line 719, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-1 {
+    right: 8.333333%; }
+  /* line 722, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-2 {
+    right: 16.666667%; }
+  /* line 725, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-3 {
+    right: 25%; }
+  /* line 728, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-4 {
+    right: 33.333333%; }
+  /* line 731, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-5 {
+    right: 41.666667%; }
+  /* line 734, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-6 {
+    right: 50%; }
+  /* line 737, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-7 {
+    right: 58.333333%; }
+  /* line 740, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-8 {
+    right: 66.666667%; }
+  /* line 743, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-9 {
+    right: 75%; }
+  /* line 746, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-10 {
+    right: 83.333333%; }
+  /* line 749, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-11 {
+    right: 91.666667%; }
+  /* line 752, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-lg-12 {
+    right: 100%; }
+  /* line 755, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-0 {
+    left: auto; }
+  /* line 758, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-1 {
+    left: 8.333333%; }
+  /* line 761, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-2 {
+    left: 16.666667%; }
+  /* line 764, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-3 {
+    left: 25%; }
+  /* line 767, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-4 {
+    left: 33.333333%; }
+  /* line 770, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-5 {
+    left: 41.666667%; }
+  /* line 773, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-6 {
+    left: 50%; }
+  /* line 776, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-7 {
+    left: 58.333333%; }
+  /* line 779, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-8 {
+    left: 66.666667%; }
+  /* line 782, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-9 {
+    left: 75%; }
+  /* line 785, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-10 {
+    left: 83.333333%; }
+  /* line 788, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-11 {
+    left: 91.666667%; }
+  /* line 791, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-lg-12 {
+    left: 100%; }
+  /* line 794, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-0 {
+    margin-left: 0%; }
+  /* line 797, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-1 {
+    margin-left: 8.333333%; }
+  /* line 800, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-2 {
+    margin-left: 16.666667%; }
+  /* line 803, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-3 {
+    margin-left: 25%; }
+  /* line 806, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-4 {
+    margin-left: 33.333333%; }
+  /* line 809, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-5 {
+    margin-left: 41.666667%; }
+  /* line 812, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-6 {
+    margin-left: 50%; }
+  /* line 815, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-7 {
+    margin-left: 58.333333%; }
+  /* line 818, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-8 {
+    margin-left: 66.666667%; }
+  /* line 821, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-9 {
+    margin-left: 75%; }
+  /* line 824, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-10 {
+    margin-left: 83.333333%; }
+  /* line 827, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-lg-11 {
+    margin-left: 91.666667%; } }
+
+@media (min-width: 1200px) {
+  /* line 833, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-1 {
+    float: left;
+    width: 8.333333%; }
+  /* line 837, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-2 {
+    float: left;
+    width: 16.666667%; }
+  /* line 841, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-3 {
+    float: left;
+    width: 25%; }
+  /* line 845, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-4 {
+    float: left;
+    width: 33.333333%; }
+  /* line 849, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-5 {
+    float: left;
+    width: 41.666667%; }
+  /* line 853, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-6 {
+    float: left;
+    width: 50%; }
+  /* line 857, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-7 {
+    float: left;
+    width: 58.333333%; }
+  /* line 861, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-8 {
+    float: left;
+    width: 66.666667%; }
+  /* line 865, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-9 {
+    float: left;
+    width: 75%; }
+  /* line 869, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-10 {
+    float: left;
+    width: 83.333333%; }
+  /* line 873, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-11 {
+    float: left;
+    width: 91.666667%; }
+  /* line 877, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .col-xl-12 {
+    float: left;
+    width: 100%; }
+  /* line 881, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-0 {
+    right: auto; }
+  /* line 884, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-1 {
+    right: 8.333333%; }
+  /* line 887, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-2 {
+    right: 16.666667%; }
+  /* line 890, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-3 {
+    right: 25%; }
+  /* line 893, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-4 {
+    right: 33.333333%; }
+  /* line 896, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-5 {
+    right: 41.666667%; }
+  /* line 899, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-6 {
+    right: 50%; }
+  /* line 902, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-7 {
+    right: 58.333333%; }
+  /* line 905, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-8 {
+    right: 66.666667%; }
+  /* line 908, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-9 {
+    right: 75%; }
+  /* line 911, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-10 {
+    right: 83.333333%; }
+  /* line 914, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-11 {
+    right: 91.666667%; }
+  /* line 917, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .pull-xl-12 {
+    right: 100%; }
+  /* line 920, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-0 {
+    left: auto; }
+  /* line 923, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-1 {
+    left: 8.333333%; }
+  /* line 926, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-2 {
+    left: 16.666667%; }
+  /* line 929, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-3 {
+    left: 25%; }
+  /* line 932, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-4 {
+    left: 33.333333%; }
+  /* line 935, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-5 {
+    left: 41.666667%; }
+  /* line 938, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-6 {
+    left: 50%; }
+  /* line 941, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-7 {
+    left: 58.333333%; }
+  /* line 944, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-8 {
+    left: 66.666667%; }
+  /* line 947, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-9 {
+    left: 75%; }
+  /* line 950, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-10 {
+    left: 83.333333%; }
+  /* line 953, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-11 {
+    left: 91.666667%; }
+  /* line 956, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .push-xl-12 {
+    left: 100%; }
+  /* line 959, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-0 {
+    margin-left: 0%; }
+  /* line 962, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-1 {
+    margin-left: 8.333333%; }
+  /* line 965, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-2 {
+    margin-left: 16.666667%; }
+  /* line 968, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-3 {
+    margin-left: 25%; }
+  /* line 971, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-4 {
+    margin-left: 33.333333%; }
+  /* line 974, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-5 {
+    margin-left: 41.666667%; }
+  /* line 977, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-6 {
+    margin-left: 50%; }
+  /* line 980, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-7 {
+    margin-left: 58.333333%; }
+  /* line 983, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-8 {
+    margin-left: 66.666667%; }
+  /* line 986, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-9 {
+    margin-left: 75%; }
+  /* line 989, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-10 {
+    margin-left: 83.333333%; }
+  /* line 992, /Users/S/Desktop/My Code Repos/search-demo/assets/scss/bootstrap-grid.scss */
+  .offset-xl-11 {
+    margin-left: 91.666667%; } }
+
+/*# sourceMappingURL=../../scss */
