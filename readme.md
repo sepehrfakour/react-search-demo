@@ -48,9 +48,9 @@ Custom built "instant search" demo renders search results as-you-type. Build usi
 #Troubleshooting
 
 ###Dev vs Production
-- Make sure `app.js` <script> in `/index.html` is loading app from the appropriate path for your environment
-- When in dev environment, this <script> path must be `http://localhost:8080/app.js` (set by runnning `npm run gd`)
-- When deploying to production, this <script> path must be `assets/js/app.js` (set by runnning `npm run gp`)
+- Make sure `app.js` script in `/index.html` is loading app from the appropriate path for your environment
+- When in dev environment, this script path must be `http://localhost:8080/app.js` (set by runnning `npm run gd`)
+- When deploying to production, this script path must be `assets/js/app.js` (set by runnning `npm run gp`)
 
 ###Git
 - Code is committed and pushed to origin with asset paths in "production" mode
