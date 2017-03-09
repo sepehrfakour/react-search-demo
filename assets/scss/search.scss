@@ -1,0 +1,188 @@
+#search-window {
+  max-width: 1080px;
+  margin: 0px auto;
+  background: #FEFEFE;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.25);
+  #input-container {
+    padding: 10px;
+    background-color: #1C688E;
+    input {
+      height: 50px;
+      width: 100%;
+      padding: 5px 5px;
+      font-size: 13px;
+      font-weight: 200;
+      border: 1px solid #DDD;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+  }
+  #display-container {
+    text-align: left;
+    overflow: scroll;
+    #filter-sidebar,
+    #results-container {
+      height: 100%;
+      margin: 0;
+      padding: 10px;
+      box-sizing: border-box;
+      overflow: scroll;
+      h3 {
+        margin: 5px 0px 10px;
+        padding-bottom: 5px;
+        font-size: 18px;
+        font-weight: 600;
+        border-bottom: 1px dotted #EEE;
+        > span:last-of-type {
+          font-size: 14px;
+          font-weight: 400;
+          color: #666;
+        }
+      }
+    }
+    #filter-sidebar {
+      .filter {
+        margin-bottom: 5px;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+          li {
+            margin: 2px;
+            padding: 2px 10px;
+            line-height: 18px;
+            border-radius: 3px;
+            border: 1px solid #EEE;
+            &.refined,
+            &:hover {
+              color: #FFF;
+              background-color: #2897C5;
+              cursor: pointer;
+              span:last-of-type { color: #FFF; }
+            }
+            &[data-facet] {
+              display: inline-block;
+              background-image: none;
+            }
+            span {
+              display: inline-block;
+              font-size: 14px;
+              font-weight: 600;
+              pointer-events: none;
+              &:last-of-type {
+                color: #A9A9A9;
+                float: right;
+                margin-left: 5px;
+              }
+            }
+          }
+        }
+      }
+    }
+    #results-container {
+      width: auto;
+      #results {
+        .result {
+          margin: 30px 0px;
+          padding: 0px 0px 20px;
+          border-bottom: 1px dotted #EEE;
+          .result-img,
+          .result-body {
+            display: inline-block;
+            vertical-align: top;
+          }
+          .result-img {
+            height: 90px;
+            width: 90px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 7px;
+            box-shadow: 0px 0px 2px rgba(0,0,0,0.3);
+          }
+          .result-body {
+            display: inline-block;
+            max-width: 210px;
+            padding-left: 10px;
+            font-size: 13px;
+            line-height: 18px;
+            color: #A9A9A9;
+            box-sizing: border-box;
+            .result-name {
+              margin: 0 0 4px;
+              font-size: 16px;
+              color: #444;
+            }
+            .result-rating {
+              display: inline-block;
+              font-size: 16px;
+              color: #FFAB66;
+              [data-rating] {
+                display: inline-block;
+                height: 28px;
+                width: 130px;
+                margin-left: 10px;
+                background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+                background-position: 0px 0px, 25px 0px, 50px 0px, 75px 0px, 100px 0px;
+                background-size: 16%;
+                vertical-align: middle;
+              }
+              [data-rating="0"] {
+                background-image: url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png');
+              }
+              [data-rating="1"] {
+                background-image: url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png');
+              }
+              [data-rating="2"] {
+                background-image: url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png');
+              }
+              [data-rating="3"] {
+                background-image: url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/star-empty.png'), url('../../resources/graphics/star-empty.png');
+              }
+              [data-rating="4"] {
+                background-image: url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/star-empty.png');
+              }
+              [data-rating="5"] {
+                background-image: url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png'), url('../../resources/graphics/stars-plain.png');
+              }
+            }
+            .result-reviews {
+              display: block;
+              font-size: 14px;
+              vertical-align: top;
+            }
+            .result-cuisine {}
+            .result-area {}
+            .result-price-range {}
+          }
+          em { background-color: yellow; }
+          .details {
+            color: #A9A9A9;
+          }
+        }
+      }
+      #paginate-container {
+        padding: 12px 0px;
+        text-align: center;
+        #show-more-button {
+          display: inline-block;
+          padding: 10px 90px;
+          font-weight: 500;
+          font-size: 18px;
+          color: #AAA;
+          background: transparent;
+          border: 1px solid #CCC;
+          border-radius: 3px;
+          -webkit-transition: background-color .25s ease-in-out;
+          -moz-transition: background-color .25s ease-in-out;
+          -ms-transition: background-color .25s ease-in-out;
+          -o-transition: background-color .25s ease-in-out;
+          transition: background-color .25s ease-in-out;
+          &:hover {
+            color: #555;
+            background-color: #EEE;
+          }
+        }
+      }
+    }
+  }
+}

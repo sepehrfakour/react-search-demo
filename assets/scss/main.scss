@@ -1,14 +1,57 @@
+@import "bootstrap-grid";
+
+$text: #363B3E;
+
+html,
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Avenir Next', 'Helvetica Neue', arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: $text;
+  background: url(../../resources/graphics/background.png);
+  // -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
 }
 
-.welcome-container {
-  margin: 50px 0 0 0;
-  text-align: center;
-  font-size: 2em;
+input::-webkit-input-placeholder, /* Chrome/Opera/Safari */
+input::-moz-placeholder, /* Firefox 19+ */
+input:-ms-input-placeholder, /* IE 10+ */
+input:-moz-placeholder { /* Firefox 18- */
+  font-size: 13px;
+  font-weight: 600;
+  color: #555;
+}
 
-  p {
-    margin: 5px;
+#react-app-container {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#main-window {
+  padding: 0px;
+}
+
+.row { margin: 0; }
+.col-xs-12 { padding: 0; }
+
+@media (min-width: 768px) {
+  #main-window {
+    padding: 90px 0px;
   }
 }
+
+@import "search";
+@import "search-responsive";
