@@ -1,4 +1,4 @@
 (function () {
-  process.env.ALGOLIA_APPLICATION_ID='ABF3QSSV0C';
-  process.env.ALGOLIA_ADMIN_API_KEY='e9d7ca0ca9d04549bf0f46cd017a5b21';
+  process.env.ALGOLIA_APPLICATION_ID='9KFLYOY1GK';
+  process.env.ALGOLIA_ADMIN_API_KEY='d219521c2e9a0cf7395b485789a88d4c';
 })();
